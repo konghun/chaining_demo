@@ -70,6 +70,7 @@ void chaining_controller::EffortController::jointEffortTester(std::vector<double
     get_node()->get_logger(),
     "Joint Effort Value From Higher Level Controller:" << joint_efforts[0]);
 }
+
 controller_interface::return_type chaining_controller::EffortController::update(
   const rclcpp::Time & /*time*/, const rclcpp::Duration & /*period*/)
 {

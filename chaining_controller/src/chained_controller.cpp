@@ -117,6 +117,7 @@ bool chaining_controller::ChainedController::update()
   registerJointCommand(reference_interfaces_);
   return true;
 }
+
 void chaining_controller::ChainedController::registerJointCommand(
   const std::vector<double> & effort)
 {
